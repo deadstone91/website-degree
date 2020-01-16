@@ -1,0 +1,10 @@
+We are encoraged to be critical, this week might be my most, especially of my own work.<br><br>
+To start with i decided that i would make my own jquery slideshow...what i mistake, i wasted so many hours because, i dropped myself in the deep end of the wor;d of jquery. Ironically i did make one and it worked, it started when i pressed the 'week 2' tab and had buttons to move to next slide or previous. But, I am nuronic, it would not go away if after pressing week 2 i pressed any other of the blog week tabs, on top of that if i pressed the week 2 tab again the buttons multiplied. I TRIED to sort it...haha...that is what i shouldn't of done. This caused panic, annoyance etc. I spent more hours trying to replicate my code, becaue of my mind frame i just could get there.... I gave up, searched the interet for a slideshow and edited to fit my application. I will continue to try and get it working again but i have to stop because i have wasted to much time on this weeks blog. <br> <br>
+Positive though, i have learned a lot about jquery, interesting how simple it can be...CAN be. Honestly though, what a great framework, can see the Designers must of put a huge amount of time into it. <br><br><br>
+For the slideshow i used one called infinity loop which takes as many images with a set class and puts them in a timed loop, this doesn't have functionality that allows you to move forward and back through the images. Found it difficult to bring it into my website because i was not getting to the right position using relative or absolute css. One of the issues with this is that it needs to absolute to make the pictures appear on each other. I got around this issue by changing one of the parameters in the function that adds fading
+<pre>
+        var fadeTime = 0; //this was 2500
+                    This then gets used in a jquery function
+        $('.pic').eq(currentItem).fadeIn(fadeTime);
+</pre>
+

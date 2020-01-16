@@ -1,0 +1,5 @@
+So before i start here is the link to the firebase toutorial mentioned in the powerpoint. <br><br>
+https://friendlychat-39413.firebaseapp.com/
+<br><br>
+
+Making my was through the firebase toutorial was very intersting, it is my first time using googles cloud services and i am impressed. My web server runs on AWS and its very difficult to work out and by far less good looking. I enjoyed getting to the end product of this application, but obviously this is just a small start because each step is given to you and a large amount to the product is prewritten. there is something comforting with saving the data in JSON format, its easy to read and easy to understand a lot less confusing to figure. I like the fact that the whole system is on cloud. I have got used to using Sql but i can see the merrits of not using it when data can be more random. From what i understand twitter uses something like firebase for storing tweets and i can see why, there would be no logic in storing mass data of that sort in tables. I would definately consider using it in the future and hopefully will.

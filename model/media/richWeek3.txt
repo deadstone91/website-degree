@@ -1,0 +1,105 @@
+This week we were asked to create an API for connection from a hypothetical website which displays details on movies. Below this Blog is the API CRUD data from this site. To be totally honest it wasn't hard to do for the fact that from last simester we designed one for the news story website. I took the one we had and redesigned it for the purpose of this site. From a developers standpoint nothing can be better than having code already written that we can reuse and add to if need be. i have left out the details for the connection data beiing that this is a public blog and i want to keep my details and my server safe.<br><br>One of the things asked from geoff is why using an api like this is good. For one thing ot keeps the connections to the database seperate from the data that runs the website, obviously this is in design format of MVC. It also makes sence because it makes it easy to use a basically standardised API for any webpage we need just with a few suttle changes.
+
+<pre>
+    <?php
+    require_once '../model/database.php';
+
+    $db = new databaseCon();
+    $connection = $db->connection();
+    if(!$connection){
+        echo "Lost Connection";
+    }
+    
+    function insertFilm($film,$descript){
+            global $connection;
+
+            $sql = "INSERT INTO films (name,description,valid) values(?,?,?)";
+
+            $stmt = $connection->prepare($sql);
+            //var_dump($date);
+            $stmt->bind_param("ssi",$film,$descript,$valid);
+            If($stmt->execute())
+            {
+                echo '<script>alert("Film Inserted")</script>';
+            }
+        }
+
+    function getFilmById($id)
+    {
+        global $connection;
+
+        $sql = 'SELECT * FROM films WHERE item_id = ?';
+        $stmt = $connection->prepare($sql);
+        $stmt->bind_param("i", $id);
+        $result = $stmt->execute();
+
+        while($r = mysqli_fetch_assoc($result))
+        {
+            $rows[] = $r;
+        }
+        return json_encode($rows);
+     }
+
+
+    function getAllFilms()
+    {
+        global $connection;
+
+        $sql = "SELECT * FROM films";
+
+
+        $result = mysqli_query($connection,$sql);
+        $rows = null;
+        if(empty($result)){
+        }else{
+            while($r = mysqli_fetch_assoc($result))
+            {
+
+                $rows[] = $r;
+            }
+            //var_dump(json_encode($rows));
+            return json_encode($rows);
+            }
+    }
+
+    function updateFilmDescript($id,$name,$descript)
+    {
+        global $connection;
+        $sql = 'UPDATE films SET description = ? WHERE film = ?' 
+        $stmt = $connection->prepare($sql);
+        $stmt->bind_param("ss",$descript", $film);
+        $result = $stmt->execute();
+        If($result){
+            <script>alert("film updated");</script>
+        }
+    }
+    
+    function updateFilmName($id,$name,$descript)
+    {
+        global $connection;
+        $sql = 'UPDATE films SET film = ? WHERE id = ?' 
+        $stmt = $connection->prepare($sql);
+        $stmt->bind_param("i","$id", $film);
+        $result = $stmt->execute();
+        If($result){
+            <script>alert("film updated");</script>
+        }
+    }
+
+
+    function deleteFilmByName($name)
+    {
+        global $connection;
+        $sql = 'DELETE FROM films WHERE film = ?' 
+        $stmt = $connection->prepare($sql);
+        $stmt->bind_param(s, $film);
+        $result = $stmt->execute();
+        If($result){
+            <script>alert("film updated");</script>
+        }
+    }
+    ?>;
+</pre>
+
+
+

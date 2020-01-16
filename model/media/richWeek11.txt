@@ -1,0 +1,3 @@
+<strong>Developing the website</strong><br><br>
+
+My whole website is designed to work from the one page. The data is all retrieved using ajax requests, the first ajax request to get the basic film data is done using vanilla Ajax while the rest is loading using jquery ajax, which once you get used to is so much easier to use. The website runs on the bootstrap framework. Throughout all the website i have tried to use jquery to write it, that has been a challenge but a fun endevour. Data from the database, where i used mysql to store it is retrieved through an api which returns the data in JSON formatt then placed onto the screen.

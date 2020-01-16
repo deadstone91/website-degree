@@ -1,0 +1,21 @@
+This week is a discussion on the mobile revolution and the things that are different from pc and mobile. Asked in the notes is to consider things that can be done by a mobile but not a pc.
+<br><br>
+    <pre>
+        1. make a phone call
+        2. SMS
+        3. Satalite Navigation
+        4. Put in your pocket
+        5. High Quality Photography
+        6. Torch
+        7. altervative security
+            i.e face unlock, fingerprint
+        8. Entertainmet on the go
+        9. Designed to connect to wireless 4g, 5g etc
+        10. Can fold...
+    </pre>
+<br>
+<h5>Where ria would revolutionise</h5>
+In this section i will look at one of the senarios that is mentioned in the lecture. I - because of my interest in film - have decided that the best choice would be the cinema scenario. In many ways this is actually a hard one for the fact that nearly all cinemas have adiquite websites where tickets can already be bought. <br> For this though, I thought about the idea that the mobile Ria would be able to book tickets for all cinemas in a set distance to your location. Once choosen tickets can be booked, but the defining feature i think that would make a difference is if the ticket info was joined to the phone's nfc chip. So when going into the cinema a simple ticket machine would scan the nfc chip on your phone and correlate that to you tickets and either print them out (so yesteryear) or just recognise your presence in the theater and send digital tickets to your phone. Places like the cinema could really upgrade there systems to keep up with the tech movement but with all there changes, jobs are often lost. 
+<br>
+<h5>An area where in can benifet - my thoughts</h5>
+With the continued rise of social media and vlogging, one thing that would benefit from having a mobile ria would be video editing. Not all users have the power in there pcs to be able to high end editing. So what if similar to photo editing RIAS there was ones that could allow for complex editing, even on the go. This could allow users to edit a video while still using there mobile while say on public transport before they arrive home. The obvious drawback with this idea is data useage, videos use a large amount but with the increase in large data packages this should not be a drawback for all. Obviously once the video has been edited in the cloud it was have faster data movement than from our phones. For this reason it could have direct upload to social media and youTube built into the ria. Because of the size and power of this desktop like web service it would be large and power hungry, for that reason i would expect it to be a subscription service to pay for and support the service. if this was a service that i would consider using i would expect to pay nothing more than £5 a month.

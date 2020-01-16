@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first Angular</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <style>
+        table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}  </style>
+
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="customersCtrl">
+
+        <p>{{names}}</p>
+        <table>
+            <tr ng-repeat="x in names">
+            <td>{{ x.a_id }}</td>
+            <td>{{ x.f_name }}</td>
+            <td>{{ x.s_name }}</td>
+            </tr>
+        </table>
+            
+    </div>
+            
+
+
+<script>
+    var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+    $http.get("/controller/angular.php")
+    .then(function (response) {$scope.names = response.data;alert($scope.names);});
+    
+});
+</script>    
+</body>
+</html>

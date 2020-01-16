@@ -1,0 +1,33 @@
+This week we have to focus on trying out a framework that we have not used before. For this i have decided to use pure css.<br>
+<pre>
+    Criteria for comparing framworks
+    1. Size
+    2. Complexity
+    3. look and feel 
+    4. simplicity
+    5. customisabilty
+</pre>
+<br>
+To test this framework i decided i would try and create a simple web page for uploading films to the Cutting floor(my website). This website will not have functionality, it will just be design. <br><br>
+    https://livingstone.me/view/pure-test.html
+
+<br><br>
+<h4>Criteria check</h4>
+using the criteria that i chose from above i will compare pure with bootstrap.<br>
+1.Size<br>
+Bootstrap version 3.3.7 the latest stable version is 143KB while pure CSS is 80KB. Why does the size of the framework matter? The reason is speed... The loading times of a website can mean the difference between something feeling slow and unprofessional or fast and responsive and can give that professional feeling. Honestly though with generally fast internet the differnece of around 60KBs is not a large time. With my intenet speed at home, around 20Mb/s it is about 1 tenth of a second difference in downloading the framework if we work from using the cdn version of the frameworks. So of course if you are expecting your users to be using slower interneet, then having the downloaded version on you server would be agood option. Another thing that could inpact the loading of bootstrap is that there is not just the framework, but the framework relies on jquery also, this is - for the latest stable version - another 242KB of loading.<br>
+Conclussion - pure is the smallest, which means fastest. <br><br>
+2.Complexity<br>
+This is one that technically builds on the back of point 1. A point could be made that size = complexity - and with css - which is not hugely complex the most there is the complexity would increase, this also is affected by the fact that pure is just one or two files, bootstrap is multiple because as mentioned it has to work with jquery, with is vastly more complex than css.<br>
+The conlussion being that pure is so much more simple than that of bootstrap.<br><br>
+3.Look and feel<br>
+This is where it gets interesting, why? The reason being that bootstrap is designed to have a look, yes it is easy to override that look, but none the less it has a look. Pure on the other hand is designed to have a simple "pure" design that is meant to be customised by those using it. What i found difficult - actually thats the wrong word, unsure about with pure was the lack of components, while creating my simple page i could not find compoments i am used to using, for example bootstrap container. Making a class called container to a element is all it takes to create a container. To do the same thing from pure i had to use a grid system that in all used 5 lines of code to create basically a container... a useless use of lines of code. So for me, i like the idea that i have many components already designed and ready for me to use, the down side to this though is not learning how to code the css yourself. <br>
+Conclussion is that personally i am a fan of bootstrap and prefer how it works and and happy to edit my personal css to change how it looks.<br><br>
+4. simplicity<br>
+When i looked back writing this i thought is this not just the oposite of complexity but no its not. When i think of simplicity i think of how easy it is too use and easy of finding documentation for said framework. for me simplicity is how much does it make web developing easier. For me i have been using bootstrap for a while and it makes the ui creation so simple, pure seems so much less featured you have to write more of your own to get things to work right.<br>
+For that reason i conclude that bootstrap for me is the simplest because it make the whole developmetn easier but this  is balanced by the fast you don't learn how to do the actual coding as easily.<br><br>
+5. customisability<br>
+Both these frameworks have the ability to be customisable, pure does this in being terribly simple, this means that there is a lot left un-made - so customisability is whatever you want from it. - bootstrap is so complex that it has so many things that can be changed, some difficult some just a css override. This is something i really have not a lot of knowledge with so this comparison will end in a draw withthere too.
+<br><br><br>
+Conclusion<br>
+Both of these frameworks have there possitives and negitives and as seen in the discussion above this is made clear. But i have to choose bootstrap as the one i choose becuase simply that is the one that i am must familiar with. but, pure seems interesting if not a little small for my liking, but with all things like it there is a miriad of customisation(plug-ins) to make it a bigger system.
