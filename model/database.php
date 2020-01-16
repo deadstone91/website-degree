@@ -5,7 +5,7 @@
  var $dbName = 'newsdb';
  var $dbHost = 'localhost';
  var $dbUsername = 'root';
- var $dbPassword = 'BMKingdom91';
+ var $dbPassword = '';
 
      function connection(){
          $connection = mysqli_connect($this->dbHost,$this->dbUsername,$this ->dbPassword,$this->dbName);
